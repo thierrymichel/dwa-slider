@@ -32,7 +32,8 @@ mix
     server: 'dist',
     files: [
       'dist/**/*'
-    ]
+    ],
+    open: false
   });
 
 if (!mix.inProduction()) {
