@@ -7,6 +7,11 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  transition: transform 0.25s ease-in-out;
+
+  .no-js & {
+    flex-wrap: wrap;
+  }
 }
 
 .team__item {
