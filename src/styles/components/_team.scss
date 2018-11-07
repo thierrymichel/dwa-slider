@@ -1,0 +1,35 @@
+.team-outer {
+  overflow: hidden;
+}
+
+.team {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.team__item {
+  position: relative;
+  flex-shrink: 0;
+  width: 44rem;
+  margin: 0;
+  background-color: $c-black;
+  transition: transform 0.25s ease-in-out;
+  // transform: scale(0.9);
+
+  &.is-active {
+    transform: scale(1);
+  }
+}
+
+.team__item__picture {
+  display: block;
+  width: 100%;
+  transition: opacity 0.25s ease-in-out;
+  // opacity: 0.5;
+
+  .is-active & {
+    opacity: 1;
+  }
+}
