@@ -1,8 +1,10 @@
 body {
+  margin: 0;
   background-color: fade-out($c-black, 0.25);
 }
 
 h1 {
+  margin: 4rem 4rem 6rem;
   color: $c-white;
   font-weight: 100;
 
